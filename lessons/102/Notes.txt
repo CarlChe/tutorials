@@ -1,0 +1,27 @@
+====
+VPC
+====
+1. subnet need to be tagged, for example:
+    "kubernetes.io/role/internal-elb" = "1"
+    "kubernetes.io/cluster/demo"      = "owned"
+
+
+==============
+EKS Node Group
+==============
+1, Define launch template
+2, Autoscaling group definiation
+
+========
+EKS OIDC 
+========
+1. EKS as OpenID IAM provider, so service in EKS can execute AWS cloud service like node group Autoscaling
+2. IAM role are granted to OpenID provider, like IAM role for autoscaling group
+
+
+======================
+k8s cluster-autoscaler
+======================
+1, ServiceAccount with IAM role for eks node group autoscaling
+2, cluster-autoscaler Deployment
+3, cluster-autoscaler clusterrole/role/clusterrolebinding/rolebinding
