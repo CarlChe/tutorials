@@ -1,6 +1,10 @@
-# New Video - https://youtu.be/iz95STKZMqY
+# New Video - https://youtu.be/DgcBFb4L0dI
 
-[<img src="assets/226.png?raw=true">](https://youtu.be/iz95STKZMqY)
+[<img src="assets/228.png?raw=true">](https://youtu.be/DgcBFb4L0dI)
+
+# Support
+
+🔴 - To support my channel, I'd like to offer Mentorship/On-the-Job Support/Consulting. (me@antonputra.com)
 
 # Playlists
 
